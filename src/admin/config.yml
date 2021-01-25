@@ -2,13 +2,13 @@ backend:
   name: github
   repo: arturogalan/example-gridsome-netlify-cms-widget-i18n
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "content/media/uploads"
+public_folder: "/content/uploads"
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "posts"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
