@@ -1,5 +1,6 @@
 {
   "name": "example-gridsome-netlify-cms-widget-i18n",
+  "comment": "file:./../../trabajo/netlify-cms-widget-i18n",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
@@ -10,6 +11,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
-    "netlify-cms": "^2.10.84"
+    "netlify-cms": "^2.10.84",
+    "netlify-cms-widget-i18n": "0.0.4"
   }
 }

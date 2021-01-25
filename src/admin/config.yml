@@ -17,3 +17,12 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "spanish-i18n-file"
+    label: "Spanish file"
+    extension: json
+    editor: {preview: false}
+    create: true
+    folder: "content/i18n/es"
+    fields:
+      - {label: "Title", name: "title", widget: "string", pattern: ['^(?!.*\.json$).*$','A JSON file name can have no spaces or special characters'], hint: "The JSON file name"}
+      - {label: "i18n content", name: "es", widget: "i18n"}
