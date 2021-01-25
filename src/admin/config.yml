@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: arturogalan/example-gridsome-netlify-cms-widget-i18n
+  branch: 'main'
 
 media_folder: "content/media/uploads"
 public_folder: "/content/uploads"
