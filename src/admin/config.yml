@@ -20,9 +20,10 @@ collections:
   - name: "spanish-i18n-file"
     label: "Spanish file"
     extension: json
-    editor: {preview: false}
+    editor:
+      preview: false
     create: true
     folder: "content/i18n/es"
     fields:
-      - {label: "Title", name: "title", widget: "string", pattern: ['^(?!.*\.json$).*$','A JSON file name can have no spaces or special characters'], hint: "The JSON file name"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "i18n content", name: "es", widget: "i18n"}
