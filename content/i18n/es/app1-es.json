@@ -1,9 +1,8 @@
 {
   "es": {
     "KEY": "value",
-    "KEY_2": "value 2",
+    "KEY_32": "value 2",
     "KEY_3": "value 3",
-    "ASDAS": "sds",
     "KEY_4": "value 4"
   },
   "title": "app1-es"
